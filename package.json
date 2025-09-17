@@ -2,17 +2,17 @@
   "name": "bakery-shop",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "homepage": "https://JohnFrichMagan.github.io/Bakery/",
+  "homepage": "https://johnfrichmagan.github.io/Bakery/",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --base-href https://JohnFrichMagan.github.io/Bakery/",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist/bakery-shop"
-  },
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build --base-href https://johnfrichmagan.github.io/Bakery/ --output-path=www",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "lint": "ng lint",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d www"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.0.0",

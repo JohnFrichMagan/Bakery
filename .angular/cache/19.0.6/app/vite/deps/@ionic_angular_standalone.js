@@ -99,10 +99,6 @@ import {
   win
 } from "./chunk-ACUVEYEP.js";
 import {
-  NG_VALUE_ACCESSOR,
-  NgControl
-} from "./chunk-GBASSA2K.js";
-import {
   ActivatedRoute,
   ChildrenOutletContexts,
   NavigationStart,
@@ -112,6 +108,10 @@ import {
   UrlSerializer
 } from "./chunk-IXXWU7WQ.js";
 import "./chunk-SVY6CGYI.js";
+import {
+  NG_VALUE_ACCESSOR,
+  NgControl
+} from "./chunk-GBASSA2K.js";
 import {
   CommonModule,
   DOCUMENT,
